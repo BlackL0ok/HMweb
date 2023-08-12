@@ -1,0 +1,28 @@
+ .container_contact_me{
+  background-image: url("../img/computers_wallpapers.png");
+  filter: grayscale(100%); 
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+ }
+  /* Corps de l'e-mail */
+  .email-content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color:transparent; /* Couleur d'arrière-plan du contenu */
+    border-radius: 5px;
+  }
+  
+  /* Style pour les boutons */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Couleur du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    text-decoration: none;
+    border-radius: 5px;
+  }

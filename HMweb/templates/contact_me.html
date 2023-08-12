@@ -1,0 +1,26 @@
+{% set title = "HMweb-This Site" %}
+
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container_contact_me" id="container_contact_me">
+    <div class="image-overlay-dark d-flex flex-column justify-content-center alig-items-center">
+      <h4 class="display-4 text-info">Me contacter</h4>
+      <div class="email-content">
+        <div class="input-group mb-3">
+            <label class="input-group-text bg-secondary text-white border-white" for="inputGroupSelect01">Méthode de contact:</label>
+            <select class="form-select bg-secondary text-white" id="inputGroupSelect04">
+              <option selected value="mail" onclick="changeBottomSide()">Mail</option>
+              <option value="phone" onclick="changeBottomSide()">Téléphone</option>
+              <option value="lkd"onclick="changeBottomSide()">Linkedin</option>
+              <option value="dc"onclick="changeBottomSide()">Discord</option>
+              <option value="gh"onclick="changeBottomSide()">Github</option>
+            </select>
+          </div>
+</div>
+<a class="btn btn-light"id="myButton" href="" onclick="goToLink()">Lien pour me contacter</a>
+</div>
+</div>
+
+{% endblock %}

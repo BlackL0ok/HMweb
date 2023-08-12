@@ -1,0 +1,115 @@
+.header_black{
+    background: linear-gradient(to right,#1a1c1dcc,#212529,#000000,#000000, #212529,#1a1c1dcc);
+    position: absolute;
+    z-index: 2; /* Empilement au-dessus du flou */
+  }
+  .header_black::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px); /* Effet de flou */
+    z-index: -1; /* Empilement en dessous de la navbar */
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+  }
+  .logo {
+    padding:0;
+    max-height:14vh;
+    max-width: 12vh;
+    padding-right:0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    z-index: 2; /* Empilement au-dessus du flou */
+  }
+  .text-white {
+    color: #fff;
+  }
+  .navbar {
+    text-align: center;
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    z-index: 2; /* Définir un z-index supérieur à celui de l'image */
+    background-color: #252525;
+
+  }
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer{
+    max-height: 8vh;
+    background: linear-gradient(to right,#151515,#181818,#2e2e2e,#181818,#151515);
+  }
+  
+  .contact-me{
+    padding-right: 150px;
+    padding-left: 0;
+  }
+  .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .nav-link {
+    color: #fff !important;
+  }
+  .nav-link:hover{
+    color: #ffffff80 !important;
+    border:solid rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px); /* Ajoutez l'effet de flou */
+    border-width: 0;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s ease; /* Ajoutez une transition fluide */
+  }
+    .thisSite {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-color:rgb(61, 61, 61);
+        filter:grayscale();
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+      } 
+      .image-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #0000005e;
+        z-index: 1; /* Définir un z-index entre celui de la navbar et de l'image */
+      }
+.thisSite{
+  background-image: url("../img/clouds2-wallpapers.jpg"); /* Couleur de superposition */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}

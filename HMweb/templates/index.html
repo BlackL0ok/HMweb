@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% set title = "HMweb-Acceuil" %}
+
+
+{% block content %}
+  <main class="main-content">
+    <div class="presentation" id="presentation">
+      <div class="image-overlay d-flex flex-column justify-content-center alig-items-center">
+        <h1 class="display-4 text-white text-center">Présentation</h1>
+        <p class="text-sm text-white text-center" style="margin-left:6vw;margin-right:6vw">Je m'appelle Haubert Mathys, j'ai 20 ans et je suis depuis peu étudiant en école d'ingénieur spécialisé dans les domaines de l'informatique sur Paris.<br>
+          Je recherche une entreprise avec laquelle je pourrais évoluer en tant qu'apprenti pendant ces 3 années.<br>Ce site a pour but de me présenter plus largement.
+        </p>
+      </div>
+    </div>
+    <div class="whoami" id="whoami">
+      <div class="image-overlay d-flex flex-column justify-content-center alig-items-center">
+        <h1 class="display-4 text-white text-center">Qui je suis</h1>
+        <p class="text-white text-center text-sm "style="margin-left:6vw;margin-right:6vw">Originaire de la région normande, je passe mes 15 premières années comme tout enfant de mon âge, je sors avec mes copains et joue aux jeux vidéo.<br>
+          Ma curiosité me poussera à regarder ce qui se passe hors des jeux vidéo. C'est en 5ème que je m'intéresse réellement aux ordinateurs et je comprends vite que je souhaite m'oritenter dans ce monde.<br>
+          Je m'intéresse aux fonctionnement du web,et à la programmation en générale avec <a class="text-white" href="https://openclassrooms.com/fr/">OpenClassroom</a>
+            afin d'avoir des cours un minimun structuré.<br></p>
+            <h2 class="display-8 text-white text-center">Compétences</h2>
+            <ul style="list-style: none;">
+              <li class="text-sm text-white text-center">Python & principe de POO: &#11088;&#11088;&#11088;&#11088;</li>
+              <li class="text-sm text-white text-center">Java & C:&#11088;&#11088;</li>
+              <li class="text-sm text-white text-center">Réseaux simple (protocole, IP/MAC, port, VPN, etc...):&#11088;&#11088;&#11088;</li>
+              <li class="text-sm text-white text-center">HTML/CSS/JS:&#11088;&#11088;</li>
+              <li class="text-sm text-white text-center">Bash:&#11088;&#11088;</li>
+              <li class="text-sm text-white text-center">Linux (Ubuntu & Kali):&#11088;&#11088;&#11088;</li>
+              <li class="text-sm text-white text-center">Hardware:&#11088;&#11088;&#11088;&#11088;</li>
+              <li class="text-sm text-white text-center">Anglais écris:&#11088;&#11088;&#11088;&#11088;</li>
+              <li class="text-sm text-white text-center">Anglais oral:&#11088;&#11088;&#11088;</li>
+            </ul>
+      </div>
+    </div>
+    <div class="parcours-sco" id="parcours-sco">
+      <div class="image-overlay-dark d-flex flex-column justify-content-center alig-items-center">
+        <h1 class="display-4 text-white text-center">Parcours scolaire</h1>
+        <p class="text-sm text-white text-center" style="margin-left:6vw;margin-right:6vw"> Je suis allé à l'école primaire de mon village (Avenay), puis je suis rentré au collège Paul Verlaine à Evrecy, dont je suis ressorti
+          avec le brevet des collèges mention bien en 2018.<br> Je me suis dirigée vers le lycée Jules Verne à Mondeville pour un BAC Technologique en spécialité S.I.N. (Système informatique ou numérique) que
+          j'ai obtenu avec mention bien aussi (2021).<br>Après le lycée, je suis aller en CPGE (Classe Préparatoire aux Grandes Ecoles/prépa) en
+        spécialité T.S.I (Technologie et Science Industriel) ou j'ai pu dévelloper mon gout pour l'informatique et peaufiner mes connaissances. Ces 2 ans m'ont permis 
+      d'arriver en 1er année d'école d'ingénieurs à l'<a class="text-white"href="https://www.isep.fr/">ISEP Paris</a> en voie d'apprentissage.</p>
+      </div>
+    </div>
+    <div class="parcours-pro" id="parcours-pro">
+      <div class="image-overlay d-flex flex-column justify-content-center alig-items-center">
+        <h1 class="display-4 text-white text-center">Parcours professionnel</h1>
+        <ul style="list-style: none;">
+          <li class="text-sm text-white text-center">Août & Juillet 2023: Agent d’entretien et de maintenance de matériel médical, livreur, opérateur robot et agent de production dans la sociéte <a class="text-white" href="https://www.pharma-gdd.com/">PharmaGDD</a> (Fleury-sur-Orne 14123).</li>
+          <li class="text-sm text-white text-center">Août & Juillet 2022: Agent d’entretien et de maintenance de matériel médical dans la sociéte <a class="text-white" href="https://www.pharma-gdd.com/">PharmaGDD</a> (Fleury-sur-Orne 14123).</li></li>
+          <li class="text-sm text-white text-center">Août & Juillet 2021: Agent de maintenance sur différentes machines et en extérieur et Montage-assemblage de pièces sur une ligne de production dans l'entreprise <a class="text-white" href="https://www.chauvin-arnoux.com/fr">Chavin Arnoux</a>(Vire 14500).</li>
+          <li class="text-sm text-white text-center">2019 – 2020 : Équipier polyvalent lors des vacances scolaires à <a class="text-white" href="https://www.mcdonalds.fr/">McDonald's</a> (Mondeville 14210). </li>
+        </ul>
+
+      </div>
+      
+    </div>
+    <div class="motivation" id="motivation">
+      <div class="image-overlay-dark d-flex flex-column justify-content-center alig-items-center">
+        <h1 class="display-4 text-white text-center">Mes motivations</h1>
+        <p class="text-sm text-white text-center" style="margin-left:6vw;margin-right:6vw">Je suis motivé à trouver un contrat d'alternance en ingénieur informatique. Ma passion pour la technologie,
+          mon désir d'apprendre et d'évoluer, ainsi que ma volonté de contribuer à la société sont mes principales sources de motivation. Je suis déterminé à mettre en pratique mes compétences,
+          à rester à la pointe des dernières avancées technologiques et à collaborer avec des professionnels du domaine. Mon objectif est de saisir cette opportunité
+          pour atteindre mes aspirations professionnelles.
+        </p>
+        </div>
+        </div>
+  </main>
+{% endblock %}
