@@ -11,6 +11,7 @@
 <link href="{{ url_for('static',filename='css/index.css') }}" type="text/css" rel="stylesheet">
 <script src="{{ url_for('static', filename='js/index.js') }}"></script>
 {% elif '/thisSite' in request.path %}
+    <meta name="viewport" content="width=device-width, initial-scale=0.85">
     <link href="{{ url_for('static',filename='css/thisSite.css') }}" type="text/css" rel="stylesheet">
 {% elif '/contact_me' in request.path %}
     <link href="{{ url_for('static',filename='css/contact_me.css') }}" type="text/css" rel="stylesheet">
