@@ -135,7 +135,7 @@
     padding: initial;
 }
 .image-overlay {
-  padding-top: 5vh;
-  margin-top: 5vh;
+  padding-bottom: 2vh;
+  padding-top: 10vh;
 }
 }
