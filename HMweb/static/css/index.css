@@ -172,7 +172,10 @@ body{
     left: 5px; /* Ajustez la valeur pour décaler le bouton vers la droite */
     margin-left: 5px; /* Ajustez la valeur pour décaler le bouton vers la droite */
     margin-top: 0.2vh;
-    background-color: #2b2b2bfd;
+    background-color: #ffffff5b;
+  }
+  .navbar{
+    background-color: #181818;
   }
   body{
     overflow-x: hidden;
