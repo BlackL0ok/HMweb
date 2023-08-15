@@ -20,7 +20,9 @@ function getValue() {
     const urlWithoutHash = currentUrl.split('#')[1];
     return urlWithoutHash;
   }
-
+  function openInNewTab(url) {
+    window.open(url, '_blank').focus();
+  }
 function goToLink(){
     // Changement de lien
     var link;
@@ -33,24 +35,18 @@ function goToLink(){
     // Vous pouvez maintenant décider d'afficher ou de masquer le contenu en fonction de la valeur récupérée
     if (valueFromJS === "mail") {
     link  = "mailto:mathys.haubert80@gmail.com"; // Afficher le contenu spécifique à 'value1'
-    document.getElementById("myButton").href = link;
     } else if (valueFromJS === "phone") {
     link  = "tel:+33625483650"
-    document.getElementById("myButton").href = link;
     } else if (valueFromJS === "lkd") {
     link="https://www.linkedin.com/in/mathys-haubert-3496a5274";
-    document.getElementById("myButton").href = link;
     } else if (valueFromJS === "dc") {
       link="https://discord.com/users/blackl0ok";
-      document.getElementById("myButton").href = link;
-    document.getElementById("myButton").href = link;
     }
     else if (valueFromJS === "gh") {
       link="https://github.com/BlackL0ok";
-      document.getElementById("myButton").href = link;
-    document.getElementById("myButton").href = link;
     }
     else{
     
     }
+    window.open(link, '_blank').focus();
 }
