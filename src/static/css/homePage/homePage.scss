@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+header {
+  position: relative;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+  .content{
+    color:white;
+    .centered-div {
+      padding-left:2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 70%;
+      height: 50vh;
+      flex-direction: column
+    }
+    .mathys{
+      font-size: 1.2em;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 1px #fff;
+    }
+    p, h1{
+      width: 100%;
+      margin:0 0 0 0;
+    }
+    p{
+      font-family: 'Ubuntu', sans-serif;
+    }
+  }
+  .contact-me{
+    margin-top:2em;
+    position: relative;
+    align-self: flex-start;
+    width:8em;
+    height:2em;
+    background-color: transparent;
+    border-color:whitesmoke;
+    color:whitesmoke;
+  }
+  // And from the left
+  .slide:hover,
+  .slide:focus {
+    box-shadow: inset 8em 0 0 0 white;
+    color:black;
+  }
+  button {
+    color: var(--color);
+    transition: 1s;
+    background: none;
+    border: 2px solid;
+    line-height: 1;
+    font-size: 1em;
+  }
+}
+
