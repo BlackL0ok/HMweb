@@ -1,1 +1,0 @@
-SECRET_KEY = b'4X\xf5\xb9 \xcf|\xc4<_?\x10\x1fm\n#'
